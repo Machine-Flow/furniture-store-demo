@@ -1,0 +1,66 @@
+/* ───── Reset & Base ───── */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  background: var(--green-950);
+  color: var(--green-100);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  width: 100%;
+  max-width: 100%;
+  border: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+/* ───── Dark Green Palette ───── */
+:root {
+  --green-950: #04120e;
+  --green-900: #0a1f1a;
+  --green-850: #0d2821;
+  --green-800: #0f2b23;
+  --green-750: #143329;
+  --green-700: #163a2e;
+  --green-600: #1f4d3d;
+  --green-500: #2d6b52;
+  --green-400: #3d8a68;
+  --green-300: #5aa882;
+  --green-200: #8bc4a8;
+  --green-100: #bcddcc;
+  --green-50:  #e8f5ee;
+  --gold:      #c9a94e;
+  --gold-light: #dfc97a;
+  --gold-glow:  rgba(201, 169, 78, 0.15);
+  --white:     #ffffff;
+  --off-white: #f0f0f0;
+  --glass:     rgba(15, 43, 35, 0.85);
+  --shadow:    0 4px 30px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 20px 60px rgba(0, 0, 0, 0.6);
+  --radius:    12px;
+  --radius-lg: 24px;
+  --transition: 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
