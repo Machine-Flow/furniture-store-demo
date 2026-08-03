@@ -12,7 +12,7 @@ export default function OurStory() {
       <div className="content-section">
         <h2>Rooted in Lebanon</h2>
         <p>
-          MOBILITOP began as a family workshop with a simple conviction: that a home should be
+          Furniture Store began as a family workshop with a simple conviction: that a home should be
           lived in, loved, and built to last. What started around a single workbench has grown
           into one of the region's most loved furniture houses — yet every piece still carries
           the same care that went into our very first sofa.

@@ -4,7 +4,7 @@ import PageHeader from '../components/PageHeader'
 const contactDetails = [
   { label: 'Showroom', value: 'Downtown Beirut, Lebanon' },
   { label: 'Phone', value: '+961 1 000 000' },
-  { label: 'Email', value: 'hello@mobilitop.com' },
+  { label: 'Email', value: 'hello@furniture-store.com' },
   { label: 'Hours', value: 'Mon–Sat, 9:00 — 19:00' },
 ]
 

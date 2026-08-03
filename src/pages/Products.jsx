@@ -19,7 +19,7 @@ export default function Products() {
       <PageHeader
         overline="Our Collection"
         title="Products"
-        intro="Every piece in the MOBILITOP range — curated for every style and built to last."
+        intro="Every piece in the Furniture Store range — curated for every style and built to last."
       />
 
       <div className="filter-chips">

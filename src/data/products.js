@@ -1,5 +1,5 @@
 /* ─────────────────────────────────────────────────────────────
-   MOBILITOP product catalog
+   FURNITURE STORE product catalog
    Images: Unsplash CDN. Gallery entries are crop variants of the
    same photo id so they always resolve.
    ───────────────────────────────────────────────────────────── */

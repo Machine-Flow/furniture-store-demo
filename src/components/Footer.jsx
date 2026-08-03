@@ -57,8 +57,8 @@ function Footer() {
         {/* Brand */}
         <div className="footer-brand">
           <Link to="/" className="footer-logo">
-            <svg viewBox="0 0 200 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <text x="0" y="28" fontFamily="serif" fontSize="26" fontWeight="700" fill="#ffffff" letterSpacing="3">MOBILITOP</text>
+            <svg viewBox="0 0 350 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <text x="0" y="28" fontFamily="serif" fontSize="26" fontWeight="700" fill="#ffffff" letterSpacing="3">FURNITURE STORE</text>
             </svg>
           </Link>
           <p>Lebanese furniture crafted with passion. Since we aim to deliver you the best, comfort and durability are our most important assets.</p>
@@ -123,7 +123,7 @@ function Footer() {
           ))}
         </div>
         <div className="bottom-copy">
-          &copy; 2026 <Link to="/">Mobilitop</Link> &mdash; All Rights Reserved. &nbsp;|&nbsp; Website by <a href="https://nascode.com" target="_blank" rel="noopener noreferrer">Nascode</a>
+          &copy; 2026 <Link to="/">Furniture Store</Link> &mdash; All Rights Reserved. &nbsp;|&nbsp; Website by <a href="https://nascode.com" target="_blank" rel="noopener noreferrer">Nascode</a>
         </div>
       </div>
     </footer>

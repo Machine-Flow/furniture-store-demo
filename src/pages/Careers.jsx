@@ -20,7 +20,7 @@ const roles = [
   {
     title: 'Junior Product Designer',
     type: 'Internship · Beirut',
-    blurb: 'Work alongside our senior design team on the next MOBILITOP collection.',
+    blurb: 'Work alongside our senior design team on the next Furniture Store collection.',
   },
 ]
 
@@ -34,7 +34,7 @@ export default function Careers() {
       />
 
       <div className="content-section">
-        <h2>Working at MOBILITOP</h2>
+        <h2>Working at Furniture Store</h2>
         <p>
           From the workshop floor to the showroom, everyone here shares one goal — making homes
           better. We invest in training, tools and the kind of work you are proud to put your name on.

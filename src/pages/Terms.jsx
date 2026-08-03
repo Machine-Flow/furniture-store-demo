@@ -3,7 +3,7 @@ import PageHeader from '../components/PageHeader'
 const sections = [
   {
     h: '1. Agreement to these terms',
-    p: 'By accessing the MOBILITOP website and placing an order, you agree to be bound by these Terms of Use and all applicable laws. If you do not agree, please do not use this site.',
+    p: 'By accessing the Furniture Store website and placing an order, you agree to be bound by these Terms of Use and all applicable laws. If you do not agree, please do not use this site.',
   },
   {
     h: '2. Products & pricing',
@@ -23,7 +23,7 @@ const sections = [
   },
   {
     h: '6. Liability',
-    p: 'To the fullest extent permitted by law, MOBILITOP shall not be liable for indirect, incidental or consequential damages arising from the use of this website or our products.',
+    p: 'To the fullest extent permitted by law, Furniture Store shall not be liable for indirect, incidental or consequential damages arising from the use of this website or our products.',
   },
   {
     h: '7. Changes to these terms',

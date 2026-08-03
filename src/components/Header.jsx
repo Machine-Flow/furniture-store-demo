@@ -29,8 +29,8 @@ export default function Header() {
           </Link>
 
           <Link to="/" className="header-logo">
-            <svg viewBox="0 0 200 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <text x="0" y="28" fontFamily="serif" fontSize="26" fontWeight="700" fill="#ffffff" letterSpacing="3">MOBILITOP</text>
+            <svg viewBox="0 0 350 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <text x="0" y="28" fontFamily="serif" fontSize="26" fontWeight="700" fill="#ffffff" letterSpacing="3">FURNITURE STORE</text>
             </svg>
           </Link>
         </div>
