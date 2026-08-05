@@ -30,7 +30,7 @@ export default function Header() {
 
           <Link to="/" className="header-logo">
             <svg viewBox="0 0 350 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <text x="0" y="28" fontFamily="serif" fontSize="26" fontWeight="700" fill="#ffffff" letterSpacing="3">FURNITURE STORE</text>
+              <text x="0" y="28" fontFamily="serif" fontSize="26" fontWeight="700" fill="#ffffff" letterSpacing="3">FURNITURE </text>
             </svg>
           </Link>
         </div>

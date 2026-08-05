@@ -94,7 +94,7 @@ function Footer() {
         </div>
 
         {/* Account */}
-        <div className="footer-col">
+        {/* <div className="footer-col">
           <h4>Account</h4>
           <ul>
             <li><Link to="/login">Log In</Link></li>
@@ -109,7 +109,7 @@ function Footer() {
               <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><LinkedInIcon /></a>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
 
       {/* Bottom bar */}
