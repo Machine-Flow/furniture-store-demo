@@ -959,79 +959,6 @@ textarea.form-input {
   margin-bottom: 1rem;
 }
 
-/* ───── Parallax pair section ───── */
-/* Sits right under the collage — no box, just the furniture on the page. */
-.parallax-section {
-  padding: 0 2rem 1.5rem;
-  max-width: 1280px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.parallax-section h2 {
-  font-size: clamp(1.6rem, 3vw, 2.2rem);
-  font-weight: 600;
-  color: var(--white);
-  margin-bottom: 0.75rem;
-  letter-spacing: -0.3px;
-}
-
-.parallax-intro {
-  color: var(--green-200);
-  max-width: 520px;
-  margin: 0 auto 2.5rem;
-  line-height: 1.7;
-}
-
-.parallax-stage {
-  position: relative;
-  height: clamp(240px, 36vh, 420px);
-  /* Bottom padding gives the images' drop-shadows room to render
-     inside the clipped stage — no visible box around the scene. */
-  padding-bottom: 48px;
-  overflow: hidden;
-}
-
-.parallax-couch,
-.parallax-chair {
-  position: absolute;
-  bottom: 0;
-  user-select: none;
-  pointer-events: none;
-  will-change: transform;
-}
-
-.parallax-couch {
-  right: 20%;
-  /* Auto dimensions + max constraints: the image scales down to fit the
-     stage on every screen size while preserving its aspect ratio —
-     it can never be distorted or clipped. */
-  width: auto;
-  height: auto;
-  max-width: 52%;
-  max-height: 88%;
-  filter: drop-shadow(0 24px 34px rgba(0, 0, 0, 0.5));
-  opacity: 0;
-  transition: opacity 0.6s ease;
-}
-
-.parallax-chair {
-  left: 6%;
-  width: auto;
-  height: auto;
-  max-width: 24%;
-  max-height: 60%;
-  position: absolute;
-  filter: drop-shadow(0 18px 28px rgba(0, 0, 0, 0.55));
-  opacity: 0;
-  transition: opacity 0.6s ease;
-}
-
-.parallax-stage.ready .parallax-couch,
-.parallax-stage.ready .parallax-chair {
-  opacity: 1;
-}
-
 /* ───── Footer header links (now Link) ───── */
 .footer-cat-group h5 a {
   color: inherit;
@@ -1064,24 +991,6 @@ textarea.form-input {
 @media (max-width: 640px) {
   .page {
     padding: calc(72px + 2.5rem) 1.25rem 4rem;
-  }
-
-  /* Compact parallax on mobile — just enough room for the pair */
-  .parallax-section {
-    padding: 0 0.5rem 1rem;
-  }
-
-  .parallax-stage {
-    height: clamp(180px, 28vh, 300px);
-  }
-
-  /* Smaller furniture on mobile → a wider gap → a clearly visible glide */
-  .parallax-couch {
-    max-width: 40%;
-  }
-
-  .parallax-chair {
-    max-width: 18%;
   }
 
   .form-row {
