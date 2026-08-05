@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import ParallaxSection from '../components/ParallaxSection'
 
 /* ═══════════════════════════════════════════
    HERO
@@ -156,6 +157,8 @@ export default function Home() {
       <div className="section-divider" />
 
       <InteriorCollage />
+
+      <ParallaxSection />
 
       <BrandStatement />
     </>
